@@ -28,7 +28,7 @@ and Andrej Karpathy’s convnet.js [demo](http://cs.stanford.edu/people/karpathy
 and Chris Olah’s [articles](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) 
 about neural networks. 
 
-Just as with research and open-source, feel free to extend this work as well 
+Just as with research and open-source, feel free to extend this work 
 to your own ideas and applications as well. Below are some implementation and 
 setup details to get you started.
 
