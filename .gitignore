@@ -1,0 +1,10 @@
+# directories
+node_modules/
+dist/
+.git/
+.ipynb_checkpoints/
+__pycache__/
+.vscode
+
+# file types
+*.log
