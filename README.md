@@ -2,8 +2,8 @@
 This visualization tool allows a user to quickly build and observe single 
 hidden layer neural networks being trained real-time by a Python script 
 in the background. You might notice that the visualization looks familiar 
-and that's because the tool was based on the open-source [TensorFlow Playground](https://playground.tensorflow.org) 
-by Google! 
+and that's because the tool was based on the open-source 
+[TensorFlow Playground](https://playground.tensorflow.org) by Google! 
 
 Since the original implementation was purely in JS (not TF), it was adapted 
 and developed further for Ricardo's MS thesis (2021) to analyze the dynamics
@@ -18,8 +18,6 @@ demonstrate how a PyTorch training script's output (the neural
 network's internal states) can be visualized real-time with D3.JS. 
 
 ![Sample Simulation with the Circle Dataset](assets/sample_simulation-circle.PNG)
-
-
 
 ## Credits
 This is a continuation of many people’s previous works — Daniel Smilkov
@@ -48,8 +46,9 @@ In order to build the intended visualization, the following technologies were us
 - npm (6.9.0)
 - Node.js (10.16.3)
 
-Open up your terminal and run the following commands in the project directory 
-to install `npm` package dependencies for the web app.
+Open up your terminal and run the following commands in the project directory. 
+
+To install the `npm` package dependencies for the web app.
 ```buildoutcfg
 npm install
 ```
@@ -61,7 +60,7 @@ pip install scripts/requirements.txt
 
 ### Building
 After installing the dependencies, run the command to compile the app. 
-It will produce all the web files in the `dist/` directory.
+It will also produce all the web files in the `dist/` directory.
 ```buildoutcfg
 npm run build
 ```
