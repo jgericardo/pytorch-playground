@@ -5,7 +5,7 @@ in the background. You might notice that the visualization looks familiar
 and that's because the tool was based on the open-source 
 [TensorFlow Playground](https://playground.tensorflow.org) by Google! 
 
-Since the original implementation was purely in JS (not TF), it was adapted 
+Since the original implementation was purely in JS (no actual TF code), it was adapted 
 and developed further for Ricardo's MS thesis (2021) to analyze the dynamics
 of his proposed learning and pruning algorithms that arise from WiSHNets 
 (Wide Single Hidden Layer Neural Networks), typically layers as wide as 100 
@@ -26,12 +26,12 @@ and Andrej Karpathy’s convnet.js [demo](http://cs.stanford.edu/people/karpathy
 and Chris Olah’s [articles](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) 
 about neural networks. 
 
-Just as with research and open-source, feel free to extend this work 
+Just as with open-source research, feel free to extend this work 
 to your own ideas and applications as well. Below are some implementation and 
 setup details to get you started.
 
 ## Tech Stack
-In order to build the intended visualization, the following technologies were used:
+In order to build the visualization, the following technologies were used:
 - HTML, CSS, & JavaScript
 - TypeScript
 - Python 3
@@ -58,7 +58,7 @@ For the training script, install the Python packages through `pip`.
 pip install scripts/requirements.txt
 ```
 
-### Building
+### Building the App
 After installing the dependencies, run the command to compile the app. 
 It will also produce all the web files in the `dist/` directory.
 ```buildoutcfg
